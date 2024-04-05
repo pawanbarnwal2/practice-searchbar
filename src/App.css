@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.search-input{
+	background-color: aquamarine;
+	padding: 1rem;
+	max-width:70%
+}
+.container-upload{
+
+}
+.container-box{
+display:flex;
+align-items: center;
+justify-content: center;
+margin: 5rem;
+}
+.container-form{
+	
+background-color: rgb(124, 163, 163);
+min-width: 600px;
+padding:10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.container-form input{
+	width:65%;
+	height:30px;
+	border:3px solid rgb(61, 192, 94);
+	margin: 10px;
+	padding: 5px;
+	font-size: 1rem;
+}
+.container-form input:focus{
+     
+	  outline: none;
+	
+}
